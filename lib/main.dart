@@ -117,7 +117,6 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
       ),
       body: Column(
         children: [
-          // Display placeholder
           Container(
             alignment: Alignment.centerRight,
             padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 48.0),
@@ -126,7 +125,6 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
               style: const TextStyle(fontSize: 48.0),
             ),
           ),
-          // Buttons
           Expanded(
             child: Column(
               children: [
