@@ -121,9 +121,9 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
           Container(
             alignment: Alignment.centerRight,
             padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 48.0),
-            child: const Text(
-              '0',
-              style: TextStyle(fontSize: 48.0),
+            child: Text(
+              _display,
+              style: const TextStyle(fontSize: 48.0),
             ),
           ),
           // Buttons
